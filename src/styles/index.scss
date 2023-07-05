@@ -1,0 +1,14 @@
+@import './normilize.css';
+*, *::after, *::before  {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background: var(#{--body-background-default});
+}
+.container {
+    padding-top: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
